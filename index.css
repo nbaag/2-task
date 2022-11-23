@@ -7,6 +7,7 @@ body {
   background-image: url(../img/desktop.svg);
   background-repeat: no-repeat;
   background-size: cover;
+  color: white;
 }
 
 .container {
@@ -35,14 +36,12 @@ nav {
 }
 
 .header__right, .header__left {
-  color: white;
   display: inline-block;
 
 }
 
 .header__sublogo {
   font-family: 'Montserrat', sans-serif;
-  color: white;
   margin-top: 10px;
   max-width: 165px;
   font-size: 10px;
@@ -79,4 +78,12 @@ nav {
 
 .header__img:last-child {
   margin-right: 0;
+}
+
+main {
+  font-family: 'Inter', sans-serif;
+}
+/* добавить weight 400 */
+main p {
+  font-family: 'Montserrat', sans-serif;
 }
