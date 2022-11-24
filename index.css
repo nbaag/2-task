@@ -42,7 +42,6 @@ nav {
 
 .header__right, .header__left {
   display: inline-block;
-
 }
 
 .header__sublogo {
@@ -116,7 +115,7 @@ main h3 {
   flex: 50%;
 }
 
-button {
+.main__btn {
   float: right;
   font-family: 'Inter', sans-serif;
   font-weight: 500;
@@ -156,4 +155,51 @@ footer a {
   line-height: 30px;
   font-family: 'Inter', sans-serif;
   font-weight: 400;
+}
+
+
+@media screen and (max-width: 450px) {
+  .header {
+    margin: 0;
+  }
+
+  .header__left {
+    width: 100%;
+    background-color: #000;
+  }
+
+  nav {
+    margin-top: 0;
+    padding: 20px 20px;
+  }
+
+  .header__link {
+    margin-right: 10px;
+    text-transform: uppercase;
+  }
+
+  .header__link:first-child {
+    margin-left: 4px;
+  }
+
+  .header__logo, 
+  .header__right, 
+  .header__link:last-child,
+  .main__btn {
+    display: none;
+  }
+
+  .main__block, main {
+    display: block;
+  }
+
+  .footer {
+    padding: 60px 15px;
+    background-color: #000;
+    display: block;
+  }
+
+  .footer__contacts {
+    text-align: left;
+  }
 }
