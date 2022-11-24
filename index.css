@@ -82,8 +82,33 @@ nav {
 
 main {
   font-family: 'Inter', sans-serif;
+  display: flex;
+  justify-content: space-between;
 }
-/* добавить weight 400 */
+
 main p {
   font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+.main__block {
+  display: flex;
+}
+
+.main__right {
+  text-align: right;
+  max-width: 300px;
+}
+
+.main__column {
+  flex: 50%;
+}
+
+button {
+  float: right;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  color: white;
+  background-color: #4077F3;
+  padding: 21px 34px;
 }
