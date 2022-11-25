@@ -20,6 +20,14 @@ a {
   max-width: 1140px;
 }
 
+.gradient-text {
+  background-image: linear-gradient(90deg, #FCB045 36.99%, #FD1D1D 100%);;
+  background-size: 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .header {
   margin-top: 46px;
   display: flex;
@@ -201,17 +209,14 @@ footer a {
   .header__logo, 
   .header__right, 
   .header__link:last-child,
-  .main__btn {
+  .main__btn,
+  .main__block {
     display: none;
   }
 
   main {
     display: block;
     padding: 40px  15px 15px;
-  }
-
-  .main__block {
-    display: none;
   }
   
   .main__right {
