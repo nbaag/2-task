@@ -21,6 +21,7 @@ a {
 }
 
 .gradient-text {
+  font-weight: 700;
   text-transform: uppercase;
   background-image: linear-gradient(90deg, #FCB045 36.99%, #FD1D1D 100%);;
   background-size: 100%;
@@ -129,9 +130,9 @@ main h3 {
 .main__left {
   max-width: 275px;
 }
-.main__left h1 {
+.main__tagline {
   font-size: 48px;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-weight: 400;
 }
 
@@ -140,8 +141,10 @@ main h3 {
   max-width: 300px;
 }
 
-.main__right h2, .main__right h3 {
+.main__title, .main__subtitle {
   font-size: 18px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
 }
 .main__column {
   flex: 50%;
@@ -156,15 +159,15 @@ main h3 {
   padding: 21px 34px;
 }
 
+.footer {
+  display: flex;
+}
 
 h4 {
   margin-bottom: 20px;
   font-family: 'Inter', sans-serif;
   font-weight: 700;
   color: #656566;
-}
-.footer {
-  display: flex;
 }
 
 .footer__column {
@@ -202,7 +205,7 @@ h4 {
   text-decoration: underline;
 }
 
-footer a {
+.footer__link {
   display: block;
   line-height: 30px;
   font-family: 'Inter', sans-serif;
@@ -303,7 +306,11 @@ footer a {
     max-width: 110px;
   }
 
-  .footer__column a {
+  .footer__about .footer__link:last-child {
+    margin-bottom: 20px;
+  }
+
+  .fotter__column .footer__link {
     line-height: 20px;
   }
 
