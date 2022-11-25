@@ -5,7 +5,7 @@
 }
 
 body {
-  background-image: url(../img/desktop.svg);
+  background-image: url(img/desktop.svg);
   background-repeat: no-repeat;
   background-size: cover;
   color: #E4E5EA;
@@ -182,6 +182,26 @@ h4 {
   text-align: right;
 }
 
+.footer__tel, .footer__adress {
+  margin-bottom: 20px;
+  font-family: 'Inter', sans-serif;
+}
+
+.footer__img {
+  margin-right: 5px;
+  margin-bottom: 20px;
+}
+
+.copyright {
+  padding-top: 30px;
+  font-size: 12px;
+  font-family: 'Montserrat', sans-serif;
+  text-align: right;
+}
+.copyright p:last-child {
+  text-decoration: underline;
+}
+
 footer a {
   display: block;
   line-height: 30px;
@@ -204,6 +224,13 @@ footer a {
     width: 100%;
     padding: 20px 0;
     margin:auto;
+  }
+
+  .gradient-text {
+    text-transform: lowercase;
+  }
+  .weblex {
+    text-transform: uppercase;
   }
 
   .links {
@@ -265,7 +292,7 @@ footer a {
   }
 
   .footer {
-    padding: 60px 15px;
+    padding: 60px 15px 10px;
     background-color: #000;
     display: block;
   }
@@ -281,6 +308,13 @@ footer a {
   }
 
   .footer__contacts {
+    text-align: left;
+  }
+
+  .copyright {
+    padding-top: 0;
+    padding-left: 15px;
+    background-color: #000;
     text-align: left;
   }
 }
