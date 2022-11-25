@@ -21,6 +21,7 @@ a {
 }
 
 .gradient-text {
+  text-transform: uppercase;
   background-image: linear-gradient(90deg, #FCB045 36.99%, #FD1D1D 100%);;
   background-size: 100%;
   background-clip: text;
@@ -99,6 +100,12 @@ main {
   justify-content: space-between;
 }
 
+.weblex {
+  font-family: 'Inter';
+  font-size: 48px;
+  font-weight: 900;
+}
+
 main p {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
@@ -119,11 +126,23 @@ main h3 {
   display: none;
 }
 
+.main__left {
+  max-width: 275px;
+}
+.main__left h1 {
+  font-size: 48px;
+  font-family: 'Inter';
+  font-weight: 400;
+}
+
 .main__right {
   text-align: right;
   max-width: 300px;
 }
 
+.main__right h2, .main__right h3 {
+  font-size: 18px;
+}
 .main__column {
   flex: 50%;
 }
@@ -218,13 +237,31 @@ footer a {
     display: block;
     padding: 40px  15px 15px;
   }
+  .main__left {
+    margin-bottom: 50px;
+  }
+  .main__left h1 {
+    font-size: 36px;
+  }
+  .main__left p {
+    margin-bottom: 10px;
+  }
   
   .main__right {
     text-align: left;
   }
 
+  .main__right h2 {
+    margin-bottom: 15px;
+  }
+
   .main__mobile {
     display: flex;
+  }
+
+  .main__column p {
+    margin-bottom: 14px;
+    font-size: 13px;
   }
 
   .footer {
